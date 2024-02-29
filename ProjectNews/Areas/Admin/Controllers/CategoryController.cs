@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using ProjectNews.Models;
 using ProjectNews.Models.EF;
+using PagedList;
 namespace ProjectNews.Areas.Admin.Controllers
 {
     

@@ -1,0 +1,23 @@
+.news ul li{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 130px;
+    display: flex;
+    list-style: none;
+} 
+.news ul li a{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    font-weight: 500;
+} 
+.news ul li img{
+    width: 270px;
+    height: auto;
+}
+

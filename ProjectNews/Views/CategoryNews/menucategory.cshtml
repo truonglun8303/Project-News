@@ -1,0 +1,12 @@
+﻿@model IEnumerable<ProjectNews.Models.EF.Category>
+<!-- BEGIN NAV -->
+    <ul>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                <li data-value=".@item.Alias" class="product_taital"><a href="">@item.Title</a></li>
+            }
+        }
+    </ul>
+<!-- END NAV -->

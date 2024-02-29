@@ -33,6 +33,7 @@ namespace ProjectNews.Areas.Admin.Controllers
         }
         public ActionResult Add()
         {
+            ViewBag.Category = new SelectList(db.categories.ToList(), "Id", "Title");
             return View();
         }
 
