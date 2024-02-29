@@ -12,18 +12,40 @@ namespace ProjectNews.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        public ActionResult Atech()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
-
-        public ActionResult Contact()
+        public ActionResult Arizona()
         {
-            ViewBag.Message = "Your contact page.";
-
+            return View();
+        }
+        public ActionResult Conmedian()
+        {
+            return View();
+        }
+        public ActionResult googleseo()
+        {
+            return View();
+        }
+        public ActionResult haland()
+        {
+            return View();
+        }
+        public ActionResult mitch()
+        {
+            return View();
+        }
+        public ActionResult older()
+        {
+            return View();
+        }
+        public ActionResult supreme()
+        {
+            return View();
+        }
+        public ActionResult thefaa()
+        {
             return View();
         }
     }

@@ -1,9 +1,3 @@
-/*
-CANUCKINGTON POST STYLESHEET
-A SKYROCKET LABS FREE XHTML/CSS TEMPLATE
-http://www.skyrocketlabs.com
-fred@skyrocketlabs.com
-*/
 
 /* ARCHITECTURE */
 
@@ -72,8 +66,9 @@ body {
 }
 
 #main {
+    display:flex;
     float: left;
-    width: 660px;
+    width: 100%;
     min-height: 630px;
     margin: 0 20px 0 0;
 }

@@ -1,63 +1,72 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
-
 <div id="headlines">
     <div id="main-headline">
         <h2 class="heading">Featured Story</h2>
-        <img src="img/blank.jpg" alt="" />
-        <h1><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h1>
-        <p class="author">Name Here | <span>09.18.09</span></p>
-        <p>Ut sed arcu nulla. In eget lectus vitae purus volutpat consectetur suscipit ut justo.</p>
+        <img width="400px" src="~/Content/img/atech.jpg" alt="" />
+        
+        <h1>@Html.ActionLink("A tech billionaire is quietly buying up land in Hawaii. No one knows why", "Atech","Home")</h1>
+        <p class="author">Name Here | <span></span></p>
+        <p>A mystery has been brewing in a small ranching town on Hawaii's Big Island. Word has it that Salesforce CEO Marc Benioff bought the land, stirring worries about what he plans to do with it.</p>
         <p><a href="#">Full story &raquo;</a></p>
         <h2 class="heading">Latest Video</h2>
         <object width="400" height="300">
-            <param name="movie" value="http://www.youtube.com/v/B0jhJA1Hjxk&amp;hl=en_US&amp;fs=1&" />
+            <param name="movie" value="https://www.youtube.com/watch?v=g85WsxE1gAU" />
             <param name="allowFullScreen" value="true" />
             <param name="allowscriptaccess" value="never" />
-            <embed src="http://www.youtube.com/v/B0jhJA1Hjxk&amp;hl=en_US&fs=1&amp;" type="application/x-shockwave-flash" allowscriptaccess="never" allowfullscreen="true" width="400" height="300"></embed>
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/TX9qSaGXFyg?si=S25w5WnmXQyH9kIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </object>
-        <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
-        <p class="author"><span>09.18.09</span></p>
-        <p><a href="#">More video &raquo;</a></p>
+        <h2>
+            <a href="#">
+                Introducing Apple Vision Pro
+            </a>
+        </h2>
+        <p class="author"><span></span></p>
+        <p><a href="https://www.youtube.com/embed/TX9qSaGXFyg?si=S25w5WnmXQyH9kIU">More video &raquo;</a></p>
     </div>
     <div id="more-headlines">
         <h2 class="heading">Featured Stories</h2>
-        <h2><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h2>
+        <h2>@Html.ActionLink("In Arizona, abortion politics are already playing out on the Senate campaign trail", "Arizona", "Home")</h2>
         <p class="author">Name Here | <span>09.18.09</span></p>
         <p>Ut sed arcu nulla. In eget lectus vitae purus volutpat consectetur suscipit ut justo.</p>
         <p><a href="#">Full article &raquo;</a></p>
-        <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+        <h3>@Html.ActionLink("Supreme Court hears challenge to Trump-era ban on bump stocks for guns", "supreme", "Home")</h3>
         <p class="author">Name Here | <span>09.18.09</span></p>
         <p>Ut sed arcu nulla. In eget lectus vitae purus volutpat consectetur suscipit ut justo.</p>
         <p><a href="#">Full article &raquo;</a></p>
-        <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
+        <h3>@Html.ActionLink("Middle East crisis — explained", "mitch", "Home")</h3>
         <p class="author">Name Here | <span>09.18.09</span></p>
         <p>Ut sed arcu nulla. In eget lectus vitae purus volutpat consectetur suscipit ut justo.</p>
         <p><a href="#">Full article &raquo;</a></p>
         <h2 class="heading">Podcast</h2>
         <img src="img/microphone.png" alt="" class="righty" />
-        <h4><a href="#">Lorem ipsum dolor sit amet, consectetur</a></h4>
+        <h4><a href="#">Sleep is your superpower | Matt Walker | TED</a></h4>
         <p class="author"><span>09.18.09</span></p>
-        <p>Ut sed arcu nulla. In eget lectus vitae purus volutpat consectetur suscipit ut justo.</p>
+        <p>Learn English with a short story.</p>
         <p><a href="#">More podcasts &raquo;</a></p>
     </div>
 </div>
+
+    <!-- END MAIN -->
+    <!-- BEGIN SIDEBARS -->
+    <div id="sidebars">
+        <!-- BEGIN ADS -->
+        <a href="#"><img src="img/side-ad.png" alt="" class="ad" /></a> <a href="#"><img src="img/side-ad.png" alt="" class="ad-right" /></a> <a href="#"><img src="img/side-ad.png" alt="" class="ad" /></a> <a href="#"><img src="img/side-ad.png" alt="" class="ad-right" /></a>
+        <!-- END ADS -->
+        <h2 class="heading-blue">Sports Headlines</h2>
+        <img height="157px" src="~/Content/img/haland.jpg" alt="" />
+        <h3>@Html.ActionLink("Haaland hammers five as Man City thrash Luton in FA Cup", "haland", "Home")</h3>
+        <p>[1/5]Soccer Football - FA Cup - Fifth Round - Luton Town v Manchester City - Kenilworth Road, Luton, Britain - February 27, 2024 Manchester City's Erling Braut Haaland in action REUTERS/David Klein Purchase Licensing Rights.</p>
+        <p><a href="#">More headlines &raquo;</a></p>
+        <h2 class="heading">Celebrity Sightings</h2>
+        <img width="280px" src="~/Content/img/z.jpg" alt="" class="ad" />
+        <h2 class="heading">In the Community</h2>
+        <h4><a href="#">Why Taiwanese Americans are moving to Taiwan — reversing the path of their parents</a></h4>
+        <h4><a href="#">The push to vote 'uncommitted' to Biden in Michigan exceeds goal</a></h4>
     </div>
-<!-- END MAIN -->
-<!-- BEGIN SIDEBARS -->
-<div id="sidebars">
-    <!-- BEGIN ADS -->
-    <a href="#"><img src="img/side-ad.png" alt="" class="ad" /></a> <a href="#"><img src="img/side-ad.png" alt="" class="ad-right" /></a> <a href="#"><img src="img/side-ad.png" alt="" class="ad" /></a> <a href="#"><img src="img/side-ad.png" alt="" class="ad-right" /></a>
-    <!-- END ADS -->
-    <h2 class="heading-blue">Sports Headlines</h2>
-    <img src="img/wayne.jpg" alt="" />
-    <h3><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></h3>
-    <p>Ut sed arcu nulla. In eget lectus vitae purus volutpat consectetur suscipit ut justo.</p>
-    <p><a href="#">More headlines &raquo;</a></p>
-    <h2 class="heading">Celebrity Sightings</h2>
-    <img src="img/casey.jpg" alt="" class="ad" /> <img src="img/hobo.jpg" alt="" class="ad-right" />
-    <h2 class="heading">In the Community</h2>
-    <h4><a href="#">Lorem ipsum dolor sit amet eget, consectetur adipiscing elit</a></h4>
-    <h4><a href="#">Lorem ipsum dolor sit amet eget, consectetur adipiscing elit</a></h4>
+    <!-- END SIDEBARS -->
+
+
+<!-- END CONTENT WRAPPER-->
+

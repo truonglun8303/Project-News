@@ -1,12 +1,15 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     @Styles.Render("~/Content/css/global.css")
+    @Styles.Render("~/Content/css/world.css")
 </head>
 <body>
     <!-- BEGIN TOP -->
@@ -63,18 +66,19 @@
             @RenderBody()
             <hr />
         </div>
+     </div>
         <!-- END SIDEBARS -->
-    </div>
+
     <!-- END CONTENT WRAPPER-->
     <!-- BEGIN EXTRAS -->
     <div id="extras">
         <div id="recommended">
             <h2 class="heading">Recommended Stories</h2>
             <ul>
-                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit &raquo;</a></li>
-                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit &raquo;</a></li>
-                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit &raquo;</a></li>
-                <li class="last"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit &raquo;</a></li>
+                <li> @Html.ActionLink("ExxonMobil is suing investors who want faster climate action", "older", "Home")<a href="#"> &raquo;</a></li>
+                <li> @Html.ActionLink("Field Notes: On Reporting, the Israel-Hamas War", "thefaa", "Home")<a href="#"> &raquo;</a></li>
+                <li> @Html.ActionLink("Family Dollar is fined over $40 million due to a rodent infestation in its warehouse", "googleseo", "Home")<a href="#"> &raquo;</a></li>
+                <li class="last">@Html.ActionLink("Older U.S. adults should get another COVID-19 shot, health officials recommend", "conmedian","Home")<a href="#"> &raquo;</a></li>
             </ul>
         </div>
         <div id="programs">

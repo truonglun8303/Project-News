@@ -3011,11 +3011,13 @@
     <Content Include="Content\css\global.css" />
     <Content Include="Content\css\world.css" />
     <Content Include="Content\img\ad-blank.png" />
+    <Content Include="Content\img\atech.jpg" />
     <Content Include="Content\img\blank.jpg" />
     <Content Include="Content\img\blank2.png" />
     <Content Include="Content\img\cartoon.jpg" />
     <Content Include="Content\img\casey.jpg" />
     <Content Include="Content\img\cbc.png" />
+    <Content Include="Content\img\haland.jpg" />
     <Content Include="Content\img\headphones.png" />
     <Content Include="Content\img\hobo.jpg" />
     <Content Include="Content\img\icons\rss.png" />
@@ -3027,6 +3029,7 @@
     <Content Include="Content\img\wayne.jpg" />
     <Content Include="Content\img\wireframe\logo.png" />
     <Content Include="Content\img\wireframe\nav-bottom-backgr.png" />
+    <Content Include="Content\img\z.jpg" />
     <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -3157,7 +3160,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -3183,6 +3185,16 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\News\Partial_Product.cshtml" />
     <Content Include="Views\CategoryNews\menucategory.cshtml" />
+    <Content Include="Views\Home\Atech.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Arizona.cshtml" />
+    <Content Include="Views\Home\Conmedian.cshtml" />
+    <Content Include="Views\Home\googleseo.cshtml" />
+    <Content Include="Views\Home\haland.cshtml" />
+    <Content Include="Views\Home\mitch.cshtml" />
+    <Content Include="Views\Home\older.cshtml" />
+    <Content Include="Views\Home\supreme.cshtml" />
+    <Content Include="Views\Home\thefaa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
