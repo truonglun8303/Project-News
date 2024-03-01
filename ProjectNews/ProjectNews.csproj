@@ -3012,11 +3012,15 @@
     <Content Include="Content\css\world.css" />
     <Content Include="Content\img\ad-blank.png" />
     <Content Include="Content\img\atech.jpg" />
+    <Content Include="Content\img\BIDEN.jpg" />
     <Content Include="Content\img\blank.jpg" />
     <Content Include="Content\img\blank2.png" />
     <Content Include="Content\img\cartoon.jpg" />
     <Content Include="Content\img\casey.jpg" />
     <Content Include="Content\img\cbc.png" />
+    <Content Include="Content\img\conmedian.jpg" />
+    <Content Include="Content\img\dauter.jpg" />
+    <Content Include="Content\img\gettyimages-1346029354-b9ad2a2e9.jpg" />
     <Content Include="Content\img\haland.jpg" />
     <Content Include="Content\img\headphones.png" />
     <Content Include="Content\img\hobo.jpg" />
@@ -3024,8 +3028,11 @@
     <Content Include="Content\img\icons\twitter.png" />
     <Content Include="Content\img\icons\vid.png" />
     <Content Include="Content\img\microphone.png" />
+    <Content Include="Content\img\rev.jpg" />
     <Content Include="Content\img\rick.jpg" />
     <Content Include="Content\img\side-ad.png" />
+    <Content Include="Content\img\supreme.jpg" />
+    <Content Include="Content\img\v.jpg" />
     <Content Include="Content\img\wayne.jpg" />
     <Content Include="Content\img\wireframe\logo.png" />
     <Content Include="Content\img\wireframe\nav-bottom-backgr.png" />
